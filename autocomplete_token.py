@@ -31,3 +31,4 @@ tokens = tokenize_text(response.output_text)
 for token in tokens:
     input()
     print(token.strip(), end=" ", flush=True)
+print()

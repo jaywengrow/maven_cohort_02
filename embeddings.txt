@@ -1,4 +1,4 @@
-dimension   hello    world     the      cat      sat      mat
+dimension   hello    world     the      cat      sat      mat  
 ---------------------------------------------------------------
 d0          0.12    -0.45     0.03     0.66    -0.17     0.41
 d1         -0.34     0.88     0.11    -0.22     0.52     0.05
