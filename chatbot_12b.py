@@ -6,7 +6,7 @@ history = assistant_message + user_input
 
 while user_input != "exit":
     response = LLM().generate(
-        string_prompt=history
+        string_prompt=history  # send the entire history as the prompt
     )
 
     print(f"\nAssistant: {response["text"]}")

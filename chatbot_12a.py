@@ -2,7 +2,7 @@ from basic_llm import LLM
 
 assistant_message = "Assistant: How can I help you today?\n\nUser: "
 user_input = input(assistant_message)
-history = assistant_message + user_input
+history = assistant_message + user_input  # storing first assistant and user messages
 
 while user_input != "exit":
     response = LLM().generate(

@@ -13,7 +13,7 @@ while user_input != "exit":
     print(llm_response_text)
 
     user_input = input("\nUser: ")
-    history += f"{llm_response_text}\n\nUser: {user_input}\n"
+    history += f"{llm_response_text}\n\nUser: {user_input}\n"  # append last assistant and user messages to history
 
 print("****HISTORY****")
 print(history)
